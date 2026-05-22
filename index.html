@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Network Inspector</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Network Inspector</h1>
+
+    <p class="subtitle">
+        Inspect IP addresses and network details
+    </p>
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="ipInput"
+            placeholder="Enter IP Address">
+
+        <button onclick="inspectIP()">
+            Inspect
+        </button>
+
+    </div>
+
+    <div id="resultBox" class="result-box">
+
+        Waiting for inspection...
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
